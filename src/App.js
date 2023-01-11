@@ -3,7 +3,7 @@ import './App.css';
 import MovieCard from "./MovieCard";
 import SearchIcon from './search.svg';
 
-const API_URL = ' http://www.omdbapi.com/?i=tt3896198&apikey=11e69d68';
+const API_URL = ' https://www.omdbapi.com/?i=tt3896198&apikey=11e69d68';
 
 const App = () => {
     const searchMovies = async (title) => {
